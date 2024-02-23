@@ -1,20 +1,20 @@
 package browserhandling;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class ChromeBrowserInSelenium {
+public class SafariBrowserInSelenium {
 	protected static String url = "";
 	WebDriver driver;
 
 	@BeforeSuite
-	public void startChromeBrowser() {
+	public void startSafariBrowser() {
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		driver = new SafariDriver();
 	}
 	
 	@Test
@@ -23,7 +23,7 @@ public class ChromeBrowserInSelenium {
 	}
 	
 	@AfterSuite
-	public void closeChromeBrowser() {
+	public void closeSafariBrowser() {
 		driver.quit();
 	}
 
