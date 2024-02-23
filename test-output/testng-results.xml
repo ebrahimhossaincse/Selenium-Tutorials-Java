@@ -2,24 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-22T23:25:58 EST" name="Default suite" finished-at="2024-02-22T23:26:02 EST" duration-ms="3370">
+  <suite started-at="2024-02-23T03:26:42 EST" name="Default suite" finished-at="2024-02-23T03:26:48 EST" duration-ms="5835">
     <groups>
     </groups>
-    <test started-at="2024-02-22T23:25:58 EST" name="Default test" finished-at="2024-02-22T23:26:02 EST" duration-ms="3370">
-      <class name="browserhandling.HeadlessChromeBrowserInSelenium">
-        <test-method is-config="true" signature="startHeadlessChromeBrowser()[pri:0, instance:browserhandling.HeadlessChromeBrowserInSelenium@645aa696]" started-at="2024-02-22T23:25:57 EST" name="startHeadlessChromeBrowser" finished-at="2024-02-22T23:25:58 EST" duration-ms="1609" status="PASS">
+    <test started-at="2024-02-23T03:26:42 EST" name="Default test" finished-at="2024-02-23T03:26:48 EST" duration-ms="5835">
+      <class name="locators.LocateByNameAttribute">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:locators.LocateByNameAttribute@273444fe]" started-at="2024-02-23T03:26:40 EST" name="startChromeBrowser" finished-at="2024-02-23T03:26:42 EST" duration-ms="1532" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startHeadlessChromeBrowser -->
-        <test-method signature="openUrl()[pri:0, instance:browserhandling.HeadlessChromeBrowserInSelenium@645aa696]" started-at="2024-02-22T23:25:58 EST" name="openUrl" finished-at="2024-02-22T23:26:02 EST" duration-ms="3339" status="PASS">
+        </test-method> <!-- startChromeBrowser -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:locators.LocateByNameAttribute@273444fe]" started-at="2024-02-23T03:26:42 EST" name="openUrl" finished-at="2024-02-23T03:26:43 EST" duration-ms="733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:browserhandling.HeadlessChromeBrowserInSelenium@645aa696]" started-at="2024-02-22T23:26:02 EST" name="closeChromeBrowser" finished-at="2024-02-22T23:26:02 EST" duration-ms="166" status="PASS">
+        <test-method signature="locateByName()[pri:0, instance:locators.LocateByNameAttribute@273444fe]" started-at="2024-02-23T03:26:43 EST" name="locateByName" finished-at="2024-02-23T03:26:48 EST" duration-ms="5076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateByName -->
+        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:locators.LocateByNameAttribute@273444fe]" started-at="2024-02-23T03:26:48 EST" name="closeChromeBrowser" finished-at="2024-02-23T03:26:48 EST" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChromeBrowser -->
-      </class> <!-- browserhandling.HeadlessChromeBrowserInSelenium -->
+      </class> <!-- locators.LocateByNameAttribute -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

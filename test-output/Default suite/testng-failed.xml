@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="browserhandling.HeadlessChromeBrowserInSelenium">
+      <class name="locators.LocateByNameAttribute">
         <methods>
-          <include name="openUrl"/>
-          <include name="startHeadlessChromeBrowser"/>
           <include name="closeChromeBrowser"/>
+          <include name="locateByName"/>
+          <include name="startChromeBrowser"/>
+          <include name="openUrl"/>
         </methods>
-      </class> <!-- browserhandling.HeadlessChromeBrowserInSelenium -->
+      </class> <!-- locators.LocateByNameAttribute -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

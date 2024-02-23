@@ -1,20 +1,20 @@
-package browserhandle;
+package browserhanding;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class SafariBrowserInSelenium {
+public class EdgeBrowserInSelenium {
 	protected static String url = "";
 	WebDriver driver;
 
 	@BeforeSuite
-	public void startSafariBrowser() {
+	public void startEdgeBrowser() {
 		WebDriverManager.chromedriver().setup();
-		driver = new SafariDriver();
+		driver = new EdgeDriver();
 	}
 	
 	@Test
@@ -23,7 +23,7 @@ public class SafariBrowserInSelenium {
 	}
 	
 	@AfterSuite
-	public void closeSafariBrowser() {
+	public void closeEdgeBrowser() {
 		driver.quit();
 	}
 
