@@ -1,20 +1,20 @@
-package browserhandling;
+package browserhandle;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class ChromeBrowserInSelenium {
+public class EdgeBrowserInSelenium {
 	protected static String url = "";
 	WebDriver driver;
 
 	@BeforeSuite
-	public void startChromeBrowser() {
+	public void startEdgeBrowser() {
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		driver = new EdgeDriver();
 	}
 	
 	@Test
@@ -23,7 +23,7 @@ public class ChromeBrowserInSelenium {
 	}
 	
 	@AfterSuite
-	public void closeChromeBrowser() {
+	public void closeEdgeBrowser() {
 		driver.quit();
 	}
 
