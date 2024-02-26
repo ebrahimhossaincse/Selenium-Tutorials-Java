@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class HeadlessEdgeBrowserInSelenium {
-	protected static String url = "";
+	protected static String url = "https://www.testingtherapy.com/";
 	WebDriver driver;
 
 	@BeforeSuite

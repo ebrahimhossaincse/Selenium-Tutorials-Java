@@ -30,8 +30,8 @@ public class LocateByNameAttribute {
 
 	@Test
 	public void locateByName() throws InterruptedException {
-		WebElement genderLocator = driver.findElement(By.name("email"));
-		genderLocator.sendKeys("ebrahimhossain@noemail.com");
+		WebElement byName = driver.findElement(By.name("email"));
+		byName.sendKeys("ebrahimhossain@noemail.com");
 		Thread.sleep(5000);
 	}
 

@@ -11,9 +11,9 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CrossBrowserConfiguration {
-	protected static String url = "";
+	protected static String url = "https://www.testingtherapy.com/";
 	
-	WebDriver driver;
+	protected WebDriver driver;
 
 	@BeforeSuite
 	public void crossBrowser() {
