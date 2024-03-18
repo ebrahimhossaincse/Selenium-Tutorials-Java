@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tabhandling.WindowHandle">
+      <class name="test.SelectWritter">
         <methods>
-          <include name="crossBrowser"/>
-          <include name="windowHandingTest"/>
           <include name="openUrl"/>
-          <include name="close"/>
+          <include name="locateByClassName"/>
+          <include name="closeChromeBrowser"/>
+          <include name="startChromeBrowser"/>
         </methods>
-      </class> <!-- tabhandling.WindowHandle -->
+      </class> <!-- test.SelectWritter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -72,7 +72,6 @@ public class XPathStrategies {
 
 	public void exampleOfXPathStartsWith() throws InterruptedException {
 		driver.get("https://demoqa.com/automation-practice-form");
-		//Sample-1 - Format: //*[first condition and second condition and ....]
 		WebElement xpathByStartWith = driver.findElement(By.xpath("//*[starts-with(@id,'last')]"));
 		xpathByStartWith.sendKeys("Hossain");
 		Thread.sleep(3000);
