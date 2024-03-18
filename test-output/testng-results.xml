@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-18T03:50:17 EDT" name="Default suite" finished-at="2024-03-18T03:50:33 EDT" duration-ms="16700">
+  <suite started-at="2024-03-18T07:25:15 EDT" name="Default suite" finished-at="2024-03-18T07:25:31 EDT" duration-ms="16393">
     <groups>
     </groups>
-    <test started-at="2024-03-18T03:50:17 EDT" name="Default test" finished-at="2024-03-18T03:50:33 EDT" duration-ms="16700">
-      <class name="webdrivercommands.RetrieveTextByGetTextMethod">
-        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:webdrivercommands.RetrieveTextByGetTextMethod@6caf0677]" started-at="2024-03-18T03:50:12 EDT" name="startChromeBrowser" finished-at="2024-03-18T03:50:17 EDT" duration-ms="4350" status="PASS">
+    <test started-at="2024-03-18T07:25:15 EDT" name="Default test" finished-at="2024-03-18T07:25:31 EDT" duration-ms="16393">
+      <class name="webdrivergetcommands.RetrieveLocationByGetLocationMethod">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:webdrivergetcommands.RetrieveLocationByGetLocationMethod@6caf0677]" started-at="2024-03-18T07:25:13 EDT" name="startChromeBrowser" finished-at="2024-03-18T07:25:15 EDT" duration-ms="1733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChromeBrowser -->
-        <test-method signature="locateByText()[pri:0, instance:webdrivercommands.RetrieveTextByGetTextMethod@6caf0677]" started-at="2024-03-18T03:50:17 EDT" name="locateByText" finished-at="2024-03-18T03:50:33 EDT" duration-ms="16672" status="PASS">
+        <test-method signature="fetchLocation()[pri:0, instance:webdrivergetcommands.RetrieveLocationByGetLocationMethod@6caf0677]" started-at="2024-03-18T07:25:15 EDT" name="fetchLocation" finished-at="2024-03-18T07:25:31 EDT" duration-ms="16371" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locateByText -->
-        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:webdrivercommands.RetrieveTextByGetTextMethod@6caf0677]" started-at="2024-03-18T03:50:33 EDT" name="closeChromeBrowser" finished-at="2024-03-18T03:50:33 EDT" duration-ms="166" status="PASS">
+        </test-method> <!-- fetchLocation -->
+        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:webdrivergetcommands.RetrieveLocationByGetLocationMethod@6caf0677]" started-at="2024-03-18T07:25:31 EDT" name="closeChromeBrowser" finished-at="2024-03-18T07:25:31 EDT" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChromeBrowser -->
-      </class> <!-- webdrivercommands.RetrieveTextByGetTextMethod -->
+      </class> <!-- webdrivergetcommands.RetrieveLocationByGetLocationMethod -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
