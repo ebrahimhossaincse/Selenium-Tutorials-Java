@@ -1,4 +1,4 @@
-package locators.dynamicxpath;
+package formwebelementcommands;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,8 +10,8 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LocateByLast {
-	protected static String url = "https://automationexercise.com/";
+public class SubmitMethod {
+	protected static String url = "https://www.facebook.com/";
 	WebDriver driver;
 
 	@BeforeSuite
@@ -20,12 +20,17 @@ public class LocateByLast {
 		driver = new ChromeDriver();
 	}
 
-	@Test(priority = 0)
-	public void clickMethod() throws InterruptedException {
+	@Test
+	public void submitMethod() throws InterruptedException {
 		driver.get(url);
-		WebElement xpathByLast = driver.findElement(By.xpath("//div[@class='shop-menu pull-right']/ul/li[last()]"));
-		xpathByLast.click();
-		Thread.sleep(3000);
+		WebElement email = driver.findElement(By.id("email"));
+		email.sendKeys("abc@gmail.com");
+		WebElement pass = driver.findElement(By.id("pass"));
+		pass.sendKeys("123456");
+		// submitting form with submit()
+		WebElement submit = driver.findElement(By.id("pass"));
+		submit.submit();
+		Thread.sleep(5000);
 	}
 
 	@AfterSuite

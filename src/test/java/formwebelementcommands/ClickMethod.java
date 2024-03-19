@@ -1,4 +1,4 @@
-package locators.dynamicxpath;
+package formwebelementcommands;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LocateByLast {
+public class ClickMethod {
 	protected static String url = "https://automationexercise.com/";
 	WebDriver driver;
 
@@ -23,8 +23,8 @@ public class LocateByLast {
 	@Test(priority = 0)
 	public void clickMethod() throws InterruptedException {
 		driver.get(url);
-		WebElement xpathByLast = driver.findElement(By.xpath("//div[@class='shop-menu pull-right']/ul/li[last()]"));
-		xpathByLast.click();
+		WebElement locator = driver.findElement(By.xpath("//div[@class='shop-menu pull-right']/ul/li[last()]"));
+		locator.click();
 		Thread.sleep(3000);
 	}
 

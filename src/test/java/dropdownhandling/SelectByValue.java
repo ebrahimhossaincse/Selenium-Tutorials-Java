@@ -1,30 +1,32 @@
-package locators.dynamicxpath;
+package dropdownhandling;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LocateByLast {
-	protected static String url = "https://automationexercise.com/";
+public class SelectByValue {
+	protected static String url = "https://demoqa.com/select-menu";
 	WebDriver driver;
 
 	@BeforeSuite
 	public void startChromeBrowser() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 	}
 
 	@Test(priority = 0)
-	public void clickMethod() throws InterruptedException {
+	public void selectByValue() throws InterruptedException {
 		driver.get(url);
-		WebElement xpathByLast = driver.findElement(By.xpath("//div[@class='shop-menu pull-right']/ul/li[last()]"));
-		xpathByLast.click();
+		WebElement locator = driver.findElement(By.id("oldSelectMenu"));
+		Select select = new Select(locator);
+		select.selectByValue("9");
 		Thread.sleep(3000);
 	}
 

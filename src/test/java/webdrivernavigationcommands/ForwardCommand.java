@@ -16,6 +16,7 @@ public class ForwardCommand {
 	public void startChromeBrowser() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 	}
 
 	@Test(priority = 0)

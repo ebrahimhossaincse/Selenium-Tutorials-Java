@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.SelectWritter">
+      <class name="dropdownhandling.SelectByVisibleText">
         <methods>
-          <include name="openUrl"/>
-          <include name="locateByClassName"/>
-          <include name="closeChromeBrowser"/>
           <include name="startChromeBrowser"/>
+          <include name="closeChromeBrowser"/>
+          <include name="selectByVisibleText"/>
         </methods>
-      </class> <!-- test.SelectWritter -->
+      </class> <!-- dropdownhandling.SelectByVisibleText -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

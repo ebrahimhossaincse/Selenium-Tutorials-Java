@@ -16,13 +16,12 @@ public class RefreshCommand {
 	public void startChromeBrowser() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 	}
 
 	@Test(priority = 0)
 	public void refreshCommand() throws InterruptedException {
 		driver.get(url);
-		Thread.sleep(3000);
-		driver.navigate().to("https://parabank.parasoft.com/parabank/index.htm");
 		Thread.sleep(3000);
 		driver.navigate().refresh();
 		Thread.sleep(3000);
