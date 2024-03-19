@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-19T03:42:24 EDT" name="Default suite" finished-at="2024-03-19T03:42:39 EDT" duration-ms="14301">
+  <suite started-at="2024-03-19T03:51:04 EDT" name="Default suite" finished-at="2024-03-19T03:51:19 EDT" duration-ms="15027">
     <groups>
     </groups>
-    <test started-at="2024-03-19T03:42:24 EDT" name="Default test" finished-at="2024-03-19T03:42:39 EDT" duration-ms="14301">
-      <class name="dropdownhandling.SelectByValue">
-        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:dropdownhandling.SelectByValue@6caf0677]" started-at="2024-03-19T03:42:23 EDT" name="startChromeBrowser" finished-at="2024-03-19T03:42:24 EDT" duration-ms="1434" status="PASS">
+    <test started-at="2024-03-19T03:51:04 EDT" name="Default test" finished-at="2024-03-19T03:51:19 EDT" duration-ms="15027">
+      <class name="dropdownhandling.ListOfAllDropdownOption">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:dropdownhandling.ListOfAllDropdownOption@6caf0677]" started-at="2024-03-19T03:51:02 EDT" name="startChromeBrowser" finished-at="2024-03-19T03:51:04 EDT" duration-ms="2185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChromeBrowser -->
-        <test-method signature="selectByValue()[pri:0, instance:dropdownhandling.SelectByValue@6caf0677]" started-at="2024-03-19T03:42:24 EDT" name="selectByValue" finished-at="2024-03-19T03:42:39 EDT" duration-ms="14269" status="PASS">
+        <test-method signature="selectByVisibleText()[pri:0, instance:dropdownhandling.ListOfAllDropdownOption@6caf0677]" started-at="2024-03-19T03:51:04 EDT" name="selectByVisibleText" finished-at="2024-03-19T03:51:19 EDT" duration-ms="14997" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectByValue -->
-        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:dropdownhandling.SelectByValue@6caf0677]" started-at="2024-03-19T03:42:39 EDT" name="closeChromeBrowser" finished-at="2024-03-19T03:42:39 EDT" duration-ms="176" status="PASS">
+        </test-method> <!-- selectByVisibleText -->
+        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:dropdownhandling.ListOfAllDropdownOption@6caf0677]" started-at="2024-03-19T03:51:19 EDT" name="closeChromeBrowser" finished-at="2024-03-19T03:51:19 EDT" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChromeBrowser -->
-      </class> <!-- dropdownhandling.SelectByValue -->
+      </class> <!-- dropdownhandling.ListOfAllDropdownOption -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
