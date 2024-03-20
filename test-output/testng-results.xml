@@ -2,24 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-19T03:51:04 EDT" name="Default suite" finished-at="2024-03-19T03:51:19 EDT" duration-ms="15027">
+  <suite started-at="2024-03-20T06:25:52 EDT" name="Default suite" finished-at="2024-03-20T06:26:03 EDT" duration-ms="10969">
     <groups>
     </groups>
-    <test started-at="2024-03-19T03:51:04 EDT" name="Default test" finished-at="2024-03-19T03:51:19 EDT" duration-ms="15027">
-      <class name="dropdownhandling.ListOfAllDropdownOption">
-        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:dropdownhandling.ListOfAllDropdownOption@6caf0677]" started-at="2024-03-19T03:51:02 EDT" name="startChromeBrowser" finished-at="2024-03-19T03:51:04 EDT" duration-ms="2185" status="PASS">
+    <test started-at="2024-03-20T06:25:52 EDT" name="Default test" finished-at="2024-03-20T06:26:03 EDT" duration-ms="10969">
+      <class name="checkboxhandling.SelectMultiplesCheckbox">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:checkboxhandling.SelectMultiplesCheckbox@273444fe]" started-at="2024-03-20T06:25:50 EDT" name="startChromeBrowser" finished-at="2024-03-20T06:25:52 EDT" duration-ms="2549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChromeBrowser -->
-        <test-method signature="selectByVisibleText()[pri:0, instance:dropdownhandling.ListOfAllDropdownOption@6caf0677]" started-at="2024-03-19T03:51:04 EDT" name="selectByVisibleText" finished-at="2024-03-19T03:51:19 EDT" duration-ms="14997" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:checkboxhandling.SelectMultiplesCheckbox@273444fe]" started-at="2024-03-20T06:25:52 EDT" name="openUrl" finished-at="2024-03-20T06:25:53 EDT" duration-ms="703" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectByVisibleText -->
-        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:dropdownhandling.ListOfAllDropdownOption@6caf0677]" started-at="2024-03-19T03:51:19 EDT" name="closeChromeBrowser" finished-at="2024-03-19T03:51:19 EDT" duration-ms="150" status="PASS">
+        </test-method> <!-- openUrl -->
+        <test-method signature="checkByXpath()[pri:0, instance:checkboxhandling.SelectMultiplesCheckbox@273444fe]" started-at="2024-03-20T06:25:53 EDT" name="checkByXpath" finished-at="2024-03-20T06:26:03 EDT" duration-ms="10216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkByXpath -->
+        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:checkboxhandling.SelectMultiplesCheckbox@273444fe]" started-at="2024-03-20T06:26:03 EDT" name="closeChromeBrowser" finished-at="2024-03-20T06:26:04 EDT" duration-ms="382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChromeBrowser -->
-      </class> <!-- dropdownhandling.ListOfAllDropdownOption -->
+      </class> <!-- checkboxhandling.SelectMultiplesCheckbox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
