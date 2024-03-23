@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="checkboxhandling.SelectCheckboxByIDLocator">
+      <class name="waits.FluentWaits">
         <methods>
-          <include name="openUrl"/>
-          <include name="checkByID"/>
-          <include name="startChromeBrowser"/>
           <include name="closeChromeBrowser"/>
+          <include name="startChromeBrowser"/>
+          <include name="openUrl"/>
+          <include name="fluentWait"/>
         </methods>
-      </class> <!-- checkboxhandling.SelectCheckboxByIDLocator -->
+      </class> <!-- waits.FluentWaits -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
