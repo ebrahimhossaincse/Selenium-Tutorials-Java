@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-23T19:38:24 EDT" name="Default suite" finished-at="2024-03-23T19:38:40 EDT" duration-ms="15542">
+  <suite started-at="2024-03-25T23:24:29 EDT" name="Default suite" finished-at="2024-03-25T23:24:32 EDT" duration-ms="2645">
     <groups>
     </groups>
-    <test started-at="2024-03-23T19:38:24 EDT" name="Default test" finished-at="2024-03-23T19:38:40 EDT" duration-ms="15542">
-      <class name="waits.FluentWaits">
-        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:waits.FluentWaits@48bb62]" started-at="2024-03-23T19:38:21 EDT" name="startChromeBrowser" finished-at="2024-03-23T19:38:24 EDT" duration-ms="2892" status="PASS">
+    <test started-at="2024-03-25T23:24:29 EDT" name="Default test" finished-at="2024-03-25T23:24:32 EDT" duration-ms="2645">
+      <class name="radiobuttonhandling.SelectRadioButtonDynamic">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:radiobuttonhandling.SelectRadioButtonDynamic@273444fe]" started-at="2024-03-25T23:24:24 EDT" name="startChromeBrowser" finished-at="2024-03-25T23:24:29 EDT" duration-ms="5144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChromeBrowser -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:waits.FluentWaits@48bb62]" started-at="2024-03-23T19:38:24 EDT" name="openUrl" finished-at="2024-03-23T19:38:35 EDT" duration-ms="10349" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:radiobuttonhandling.SelectRadioButtonDynamic@273444fe]" started-at="2024-03-25T23:24:29 EDT" name="openUrl" finished-at="2024-03-25T23:24:32 EDT" duration-ms="2267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="fluentWait()[pri:0, instance:waits.FluentWaits@48bb62]" started-at="2024-03-23T19:38:35 EDT" name="fluentWait" finished-at="2024-03-23T19:38:40 EDT" duration-ms="5130" status="PASS">
+        <test-method signature="radioButton()[pri:0, instance:radiobuttonhandling.SelectRadioButtonDynamic@273444fe]" started-at="2024-03-25T23:24:32 EDT" name="radioButton" finished-at="2024-03-25T23:24:32 EDT" duration-ms="298" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fluentWait -->
-        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:waits.FluentWaits@48bb62]" started-at="2024-03-23T19:38:40 EDT" name="closeChromeBrowser" finished-at="2024-03-23T19:38:40 EDT" duration-ms="264" status="PASS">
+        </test-method> <!-- radioButton -->
+        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:radiobuttonhandling.SelectRadioButtonDynamic@273444fe]" started-at="2024-03-25T23:24:32 EDT" name="closeChromeBrowser" finished-at="2024-03-25T23:24:32 EDT" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChromeBrowser -->
-      </class> <!-- waits.FluentWaits -->
+      </class> <!-- radiobuttonhandling.SelectRadioButtonDynamic -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

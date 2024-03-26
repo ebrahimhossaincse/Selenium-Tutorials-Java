@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="waits.FluentWaits">
+      <class name="radiobuttonhandling.SelectRadioButtonByID">
         <methods>
-          <include name="closeChromeBrowser"/>
-          <include name="startChromeBrowser"/>
           <include name="openUrl"/>
-          <include name="fluentWait"/>
+          <include name="startChromeBrowser"/>
+          <include name="radioButtonByID"/>
+          <include name="closeChromeBrowser"/>
         </methods>
-      </class> <!-- waits.FluentWaits -->
+      </class> <!-- radiobuttonhandling.SelectRadioButtonByID -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
