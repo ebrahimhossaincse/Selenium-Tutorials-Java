@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-28T02:15:26 EDT" name="Default suite" finished-at="2024-03-28T02:15:42 EDT" duration-ms="15440">
+  <suite started-at="2024-03-28T04:01:44 EDT" name="Default suite" finished-at="2024-03-28T04:01:53 EDT" duration-ms="9067">
     <groups>
     </groups>
-    <test started-at="2024-03-28T02:15:26 EDT" name="Default test" finished-at="2024-03-28T02:15:42 EDT" duration-ms="15440">
-      <class name="mouseevents.MoveToElement">
-        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:mouseevents.MoveToElement@5032714f]" started-at="2024-03-28T02:15:25 EDT" name="startChromeBrowser" finished-at="2024-03-28T02:15:26 EDT" duration-ms="1595" status="PASS">
+    <test started-at="2024-03-28T04:01:44 EDT" name="Default test" finished-at="2024-03-28T04:01:53 EDT" duration-ms="9067">
+      <class name="scrollhandling.HorizontalScroll">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:scrollhandling.HorizontalScroll@5032714f]" started-at="2024-03-28T04:01:42 EDT" name="startChromeBrowser" finished-at="2024-03-28T04:01:44 EDT" duration-ms="1544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChromeBrowser -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:mouseevents.MoveToElement@5032714f]" started-at="2024-03-28T02:15:26 EDT" name="openUrl" finished-at="2024-03-28T02:15:33 EDT" duration-ms="7061" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:scrollhandling.HorizontalScroll@5032714f]" started-at="2024-03-28T04:01:44 EDT" name="openUrl" finished-at="2024-03-28T04:01:50 EDT" duration-ms="5971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="moveToElement()[pri:0, instance:mouseevents.MoveToElement@5032714f]" started-at="2024-03-28T02:15:33 EDT" name="moveToElement" finished-at="2024-03-28T02:15:42 EDT" duration-ms="8346" status="PASS">
+        <test-method signature="horizontalScroll()[pri:0, instance:scrollhandling.HorizontalScroll@5032714f]" started-at="2024-03-28T04:01:50 EDT" name="horizontalScroll" finished-at="2024-03-28T04:01:53 EDT" duration-ms="3060" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- moveToElement -->
-        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:mouseevents.MoveToElement@5032714f]" started-at="2024-03-28T02:15:42 EDT" name="closeChromeBrowser" finished-at="2024-03-28T02:15:42 EDT" duration-ms="179" status="PASS">
+        </test-method> <!-- horizontalScroll -->
+        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:scrollhandling.HorizontalScroll@5032714f]" started-at="2024-03-28T04:01:53 EDT" name="closeChromeBrowser" finished-at="2024-03-28T04:01:53 EDT" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChromeBrowser -->
-      </class> <!-- mouseevents.MoveToElement -->
+      </class> <!-- scrollhandling.HorizontalScroll -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
