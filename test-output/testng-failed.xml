@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mouseevents.DoubleClickExample">
+      <class name="alerthandling.AcceptPromptAlert">
         <methods>
-          <include name="doubleClickTest"/>
-          <include name="openUrl"/>
+          <include name="acceptAlert"/>
           <include name="closeChromeBrowser"/>
           <include name="startChromeBrowser"/>
+          <include name="openUrl"/>
         </methods>
-      </class> <!-- mouseevents.DoubleClickExample -->
+      </class> <!-- alerthandling.AcceptPromptAlert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
