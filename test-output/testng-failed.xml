@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="radiobuttonhandling.SelectRadioButtonByID">
+      <class name="mouseevents.DoubleClickExample">
         <methods>
+          <include name="doubleClickTest"/>
           <include name="openUrl"/>
-          <include name="startChromeBrowser"/>
-          <include name="radioButtonByID"/>
           <include name="closeChromeBrowser"/>
+          <include name="startChromeBrowser"/>
         </methods>
-      </class> <!-- radiobuttonhandling.SelectRadioButtonByID -->
+      </class> <!-- mouseevents.DoubleClickExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
