@@ -1,4 +1,6 @@
-package locators;
+package iframehandling;
+
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,33 +13,30 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LocateByCssSelectorAttribute {
-
-	String url = "https://www.daraz.com.bd/";
+public class CountTotalNumberOfIFrames {
+	protected static String url = "https://www.tutorialspoint.com/selenium/practice/frames.php";
 	WebDriver driver;
 
 	@BeforeSuite
 	public void startChromeBrowser() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		driver.manage().window().maximize(); // Maximize the screen
+		driver.manage().window().maximize();
 	}
 
 	@BeforeClass
 	public void openUrl() {
 		driver.get(url);
 	}
-
+	
 	@Test
-	public void locateByCSSLocator() throws InterruptedException {
-		WebElement cssLocator = driver.findElement(By.cssSelector("bld-txt"));
-		cssLocator.click();
-		Thread.sleep(5000);
+	public void countIframeNumber() {
+		List<WebElement> iframeElements = driver.findElements(By.tagName("iframe"));
+		System.out.println("The total number of iframes are " + iframeElements.size());
 	}
-
+	
 	@AfterSuite
 	public void closeChromeBrowser() {
 		driver.quit();
 	}
-
 }

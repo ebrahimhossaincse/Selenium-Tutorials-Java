@@ -1,4 +1,4 @@
-package locators;
+package iframehandling;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,33 +11,32 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LocateByCssSelectorAttribute {
-
-	String url = "https://www.daraz.com.bd/";
+public class SwitchToFramesByWebElement {
+	protected static String url = "https://www.tutorialspoint.com/selenium/practice/nestedframes.php";
 	WebDriver driver;
 
 	@BeforeSuite
 	public void startChromeBrowser() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		driver.manage().window().maximize(); // Maximize the screen
+		driver.manage().window().maximize();
 	}
 
 	@BeforeClass
 	public void openUrl() {
 		driver.get(url);
 	}
-
+	
 	@Test
-	public void locateByCSSLocator() throws InterruptedException {
-		WebElement cssLocator = driver.findElement(By.cssSelector("bld-txt"));
-		cssLocator.click();
-		Thread.sleep(5000);
+	public void idendtifyIFramesByWebElement() {
+		WebElement iframeElement = driver.findElement(By.id("frame1"));
+		driver.switchTo().frame(iframeElement);
+		WebElement text = driver.findElement(By.xpath("//*[text()='Selenium - Automation Practice Form']"));
+		System.out.println(text.getText());
 	}
-
+	
 	@AfterSuite
 	public void closeChromeBrowser() {
 		driver.quit();
 	}
-
 }

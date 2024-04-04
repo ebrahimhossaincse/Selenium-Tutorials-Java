@@ -31,7 +31,7 @@ public class ExplicitWait {
 
 	@Test
 	public void explicitWait() throws InterruptedException {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("firstName")));
 		WebElement firstNameLocator = driver.findElement(By.id("firstName"));
 		firstNameLocator.sendKeys("Ebrahim Hossain");
