@@ -60,7 +60,7 @@ Follow these steps to set up your development environment and start using Seleni
 3. [Apache Maven](https://maven.apache.org/) - Dependency Management
 
 ### Installation Steps
-To start using the code:
+To start using the framework:
 
 1. [Fork](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java.git) the repository.
 2. Clone, i.e, download your copy of the repository to your local machine using
@@ -69,3 +69,55 @@ git clone https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java.git
 ```
 3. Import the project into your preferred IDE (Eclipse, IntelliJ IDEA, or Spring Tools).
 4. Make any desired changes or additions to the project.
+
+##### Maven Dependencies
+
+###### Selenium TestNG Webdriver Manager
+
+```xml
+<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.13.0</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.5.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.8.0</version>
+			<scope>test</scope>
+		</dependency>
+		
+	</dependencies>
+```
+
+## Overview
+
+### Introduction
+
+Writing your first automation test is a lot of fun.
+
+Java is one of the most popular programming languages. Java offers both object oriented and functional programming features. Selenium can be used for screen scraping and automating repeated tasks on browser.
+
+In this series, you will learn Automation Testing with Selenium. 
+
+### Requirements
+- You should have the ability to learn while having fun!
+- Connectivity to Internet to download various tools needed.
+
+## Step Wise Details
+
+### 00 - Browser Handing
+- 00 - 00 [How to run Selenium Tests using Chrome](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/ChromeBrowserInSelenium.java) 
+- 00 - 01 [How to run Selenium Tests using Firefox](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/FirefoxBrowserInSelenium.java)
+- 00 - 02 [How to run Selenium Tests using Edge](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/EdgeBrowserInSelenium.java)
+- 00 - 03 [How to run Selenium Tests using Safari](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/SafariBrowserInSelenium.java)
+- 00 - 04 [How to Configure cross browser in Selenium](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/CrossBrowserConfiguration.java)
