@@ -121,3 +121,13 @@ In this series, you will learn Automation Testing with Selenium.
 - 00 - 02 [How to run Selenium Tests using Edge](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/EdgeBrowserInSelenium.java)
 - 00 - 03 [How to run Selenium Tests using Safari](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/SafariBrowserInSelenium.java)
 - 00 - 04 [How to Configure cross browser in Selenium](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/CrossBrowserConfiguration.java)
+
+
+### Acknowledgments
+Special thanks to the contributors and the Selenium community for their valuable resources and tutorials.
+
+### Contact
+For questions or feedback, please feel free to reach out:
+
+1. Maintainer: [Md. Ebrahim Hossain](https://github.com/ebrahimhossaincse)
+2. Project Link: https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java
