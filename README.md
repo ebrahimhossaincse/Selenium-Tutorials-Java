@@ -115,7 +115,7 @@ In this series, you will learn Automation Testing with Selenium.
 
 ## Step Wise Details
 
-### 00 - Browser Handing
+### 00 - Launching Browsers
 - 00 - 00 [How to run Selenium Tests using Chrome](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/ChromeBrowserInSelenium.java) 
 - 00 - 01 [How to run Selenium Tests using Firefox](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/FirefoxBrowserInSelenium.java)
 - 00 - 02 [How to run Selenium Tests using Edge](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/EdgeBrowserInSelenium.java)
@@ -126,6 +126,25 @@ In this series, you will learn Automation Testing with Selenium.
 - 01 - 00 [How to run Chrome tests in headless mode in Selenium](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/headlessbrowserhandle/HeadlessChromeBrowserInSelenium.java)
 - 01 - 01 [How to run Firefox tests in headless mode in Selenium](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/headlessbrowserhandle/HeadlessFirefoxBrowserInSelenium.java)
 - 01 - 02 [How to run Edge tests in headless mode in Selenium](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/headlessbrowserhandle/HeadlessEdgeBrowserInSelenium.java)
+
+### 02 - Locators in Selenium
+- 02 - 00 [Locate by ID](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByIDAttribute.java)
+- 02 - 01 [Locate by Name](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByNameAttribute.java)
+- 02 - 02 [Locate by Class Name](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByClassNameAttribute.java)
+- 02 - 03 [Locate by CSS Selector](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByCssSelectorAttribute.java)
+- 02 - 04 [Locate by Link Text](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByLinkTextAttribute.java)
+- 02 - 05 [Locate by Partial Link Text](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByPartialLinkTextAttribute.java)
+- 02 - 06 [Locate by Tag Name](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByTagNameAttribute.java)
+- 02 - 07 [Locate by Absolute XPath](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByAbsoluteXPath.java)
+- 02 - 08 [Locate by Relative XPath](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByRelativeXPath.java)
+- 02 - 09 [Locate by Text](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByText.java)
+- 02 - 10 [Locate by Starts With](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByStartsWith.java)
+- 02 - 11 [Locate by Preceding](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByPreceding.java)
+- 02 - 12 [Locate by Position](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByPosition.java)
+- 02 - 13 [Locate by OR Expression](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByOrExpression.java)
+- 02 - 14 [Locate by AND Expression](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByAndExpression.java)
+- 02 - 15 [Locate by Contains](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByContains.java)
+- 02 - 16 [Locate by Last](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByLast.java)
 
 ### Acknowledgments
 Special thanks to the contributors and the Selenium community for their valuable resources and tutorials.
