@@ -161,6 +161,10 @@ In this series, you will learn Automation Testing with Selenium.
 - 04 - 02 [Back](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/webdrivernavigationcommands/BackCommand.java)
 - 04 - 03 [Forward](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/webdrivernavigationcommands/ForwardCommand.java)
 
+### 05 - Waits in Selenium
+- 05 - 00 [Explicit](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/waits/ExplicitWait.java)
+- 05 - 01 [Implicit](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/waits/ImplicitWait.java)
+- 05 - 02 [Fluent](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/waits/FluentWaits.java)
 
 ### Acknowledgments
 Special thanks to the contributors and the Selenium community for their valuable resources and tutorials.
