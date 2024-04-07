@@ -166,6 +166,18 @@ In this series, you will learn Automation Testing with Selenium.
 - 05 - 01 [Implicit](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/waits/ImplicitWait.java)
 - 05 - 02 [Fluent](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/waits/FluentWaits.java)
 
+### 06 - Automate Radio Button in WebDriver
+- 06 - 00 [Single Radio Button Selection](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/radiobuttonhandling/SelectRadioButton.java)
+- 06 - 01 [Group Radio Button Selection](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/radiobuttonhandling/SelectRadioButtonDynamic.java)
+
+### 07 - Automate Checkbox in WebDriver
+- 07 - 00 [Select Checkbox By ID](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/SelectCheckboxByID.java)
+- 07 - 01 [Select Checkbox By XPath](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/SelectCheckboxByXPath.java)
+- 07 - 02 [Select Multiple Checkboxes](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/SelectMultiplesCheckbox.java)
+- 07 - 03 [Unselect Checkbox By ID](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/unselectCheckboxByID.java)
+- 07 - 04 [Unselect Checkbox By XPath](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/UnselectCheckboxByXPath.java)
+- 07 - 05 [Unselect Multiple Checkboxes](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/UnselectMultiplesCheckbox.java)
+
 ### Acknowledgments
 Special thanks to the contributors and the Selenium community for their valuable resources and tutorials.
 
