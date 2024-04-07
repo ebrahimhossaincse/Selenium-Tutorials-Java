@@ -166,17 +166,26 @@ In this series, you will learn Automation Testing with Selenium.
 - 05 - 01 [Implicit](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/waits/ImplicitWait.java)
 - 05 - 02 [Fluent](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/waits/FluentWaits.java)
 
-### 06 - Automate Radio Button in WebDriver
+### 06 - Automate Radio Button in Selenium
 - 06 - 00 [Single Radio Button Selection](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/radiobuttonhandling/SelectRadioButton.java)
 - 06 - 01 [Group Radio Button Selection](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/radiobuttonhandling/SelectRadioButtonDynamic.java)
 
-### 07 - Automate Checkbox in WebDriver
+### 07 - Automate Checkbox in Selenium
 - 07 - 00 [Select Checkbox By ID](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/SelectCheckboxByID.java)
 - 07 - 01 [Select Checkbox By XPath](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/SelectCheckboxByXPath.java)
 - 07 - 02 [Select Multiple Checkboxes](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/SelectMultiplesCheckbox.java)
 - 07 - 03 [Unselect Checkbox By ID](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/unselectCheckboxByID.java)
 - 07 - 04 [Unselect Checkbox By XPath](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/UnselectCheckboxByXPath.java)
 - 07 - 05 [Unselect Multiple Checkboxes](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/UnselectMultiplesCheckbox.java)
+
+### 08 - DropDown in Selenium
+- 08 - 00 [Select By Index](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/SelectByIndex.java)
+- 08 - 01 [Select By Value](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/SelectByValue.java)
+- 08 - 02 [Select By Visible Text](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/SelectByVisibleText.java)
+- 08 - 03 [Fetch List of options in dropdown](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/ListOfAllDropdownOption.java)
+- 08 - 04 [DeSelect By Index](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/DeselectByIndex.java)
+- 08 - 05 [Deselect By Value](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/DeselectByValue.java)
+- 08 - 06 [Deselect By Visible Text](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/DeselectByVisibleText.java)
 
 ### Acknowledgments
 Special thanks to the contributors and the Selenium community for their valuable resources and tutorials.
