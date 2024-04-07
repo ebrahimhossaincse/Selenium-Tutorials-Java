@@ -187,6 +187,15 @@ In this series, you will learn Automation Testing with Selenium.
 - 08 - 05 [Deselect By Value](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/DeselectByValue.java)
 - 08 - 06 [Deselect By Visible Text](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/DeselectByVisibleText.java)
 
+### 09 - Alerts in Selenium
+- 09 - 00 [Accept Simple Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/AcceptSimpleAlert.java)
+- 09 - 01 [Accept ConfirmA lert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/AcceptConfirmAlert.java)
+- 09 - 02 [Accept Prompt Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/AcceptPromptAlert.java)
+- 09 - 03 [Fetch Text Of Prompt Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/GetTextOfPromptAlert.java)
+- 09 - 04 [Send Text In Prompt Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/SendTextPromptAlert.java)
+- 09 - 05 [Reject Confirm Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/DismissConfirmAlert.java)
+- 09 - 06 [Reject Prompt Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/DismissPromptAlert.java)
+
 ### Acknowledgments
 Special thanks to the contributors and the Selenium community for their valuable resources and tutorials.
 
