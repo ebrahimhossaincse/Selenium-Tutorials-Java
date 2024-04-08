@@ -116,16 +116,16 @@ In this series, you will learn Automation Testing with Selenium.
 ## Step Wise Details
 
 ### 00 - Launching Browsers
-- 00 - 00 [How to run Selenium Tests using Chrome](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/ChromeBrowserInSelenium.java) 
-- 00 - 01 [How to run Selenium Tests using Firefox](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/FirefoxBrowserInSelenium.java)
-- 00 - 02 [How to run Selenium Tests using Edge](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/EdgeBrowserInSelenium.java)
-- 00 - 03 [How to run Selenium Tests using Safari](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/SafariBrowserInSelenium.java)
-- 00 - 04 [How to Configure cross browser in Selenium](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/CrossBrowserConfiguration.java)
+- 00 - 00 [How to run Selenium Tests using Chrome?](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/ChromeBrowserInSelenium.java) 
+- 00 - 01 [How to run Selenium Tests using Firefox?](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/FirefoxBrowserInSelenium.java)
+- 00 - 02 [How to run Selenium Tests using Edge?](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/EdgeBrowserInSelenium.java)
+- 00 - 03 [How to run Selenium Tests using Safari?](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/SafariBrowserInSelenium.java)
+- 00 - 04 [How to Configure cross browser in Selenium?](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/browserhanding/CrossBrowserConfiguration.java)
 
 ### 01 - Launching Browsers In Headless Mode
-- 01 - 00 [How to run Chrome tests in headless mode in Selenium](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/headlessbrowserhandle/HeadlessChromeBrowserInSelenium.java)
-- 01 - 01 [How to run Firefox tests in headless mode in Selenium](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/headlessbrowserhandle/HeadlessFirefoxBrowserInSelenium.java)
-- 01 - 02 [How to run Edge tests in headless mode in Selenium](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/headlessbrowserhandle/HeadlessEdgeBrowserInSelenium.java)
+- 01 - 00 [How to run Chrome tests in headless mode in Selenium?](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/headlessbrowserhandle/HeadlessChromeBrowserInSelenium.java)
+- 01 - 01 [How to run Firefox tests in headless mode in Selenium?](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/headlessbrowserhandle/HeadlessFirefoxBrowserInSelenium.java)
+- 01 - 02 [How to run Edge tests in headless mode in Selenium?](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/headlessbrowserhandle/HeadlessEdgeBrowserInSelenium.java)
 
 ### 02 - Locators in Selenium
 - 02 - 00 [Locate by ID](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByIDAttribute.java)
@@ -213,7 +213,13 @@ In this series, you will learn Automation Testing with Selenium.
 - 11 - 07 [Right Click](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/mouseevents/RightClick.java)
 
 ### 12 - Keyboard Events In Selenium
-- 11 - 00 [Keyboard Events](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/keyboardevents/KeyboardEvents.java)
+- 12 - 00 [Keyboard Events](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/keyboardevents/KeyboardEvents.java)
+
+### 13 - Browser Tab
+- 13 - 00 [Create New Tab](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/tabhandling/CreateNewTab.java)
+- 13 - 01 [Count The Tabs](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/tabhandling/CountTheTabs.java)
+- 13 - 02 [Switch To New Tab](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/tabhandling/SwitchToNewTab.java)
+- 13 - 03 [Switching One Tab To Another](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/tabhandling/SwitchingOneTabToAnother.java)
 
 ### Acknowledgments
 Special thanks to the contributors and the Selenium community for their valuable resources and tutorials.
