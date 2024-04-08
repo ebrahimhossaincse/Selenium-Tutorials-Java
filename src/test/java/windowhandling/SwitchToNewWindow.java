@@ -32,7 +32,7 @@ public class SwitchToNewWindow {
 	
 	@SuppressWarnings("unused")
 	@Test
-	public void switchToTab() throws InterruptedException {
+	public void switchToWindow() throws InterruptedException {
 		Set<String> allWindowHandles = driver.getWindowHandles();
 		System.out.println("Count of Window :" + allWindowHandles.size());
 
