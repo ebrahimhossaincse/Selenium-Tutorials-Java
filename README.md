@@ -212,6 +212,9 @@ In this series, you will learn Automation Testing with Selenium.
 - 11 - 06 [Move To Element](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/mouseevents/MoveToElement.java)
 - 11 - 07 [Right Click](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/mouseevents/RightClick.java)
 
+### 12 - Keyboard Events In Selenium
+- 11 - 00 [Keyboard Events](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/keyboardevents/KeyboardEvents.java)
+
 ### Acknowledgments
 Special thanks to the contributors and the Selenium community for their valuable resources and tutorials.
 
