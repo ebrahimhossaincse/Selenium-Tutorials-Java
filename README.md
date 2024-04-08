@@ -16,19 +16,7 @@
     - [Installing Apache Maven](#installing-apache-maven)
 
 11. [Built With](#built-with)
-12. [Installation Steps](#installation-steps)
-
-    - [Fork the Repository](#fork-the-repository)
-    - [Clone the Repository](#clone-the-repository)
-    - [Import Project to IDE](#import-project-to-ide)
-    - [Make Changes](h#make-changes)
-    - [Maven Dependencies](#maven-dependencies)
-
-18. [Overview](#overview-1)
-
-    - [Introduction](#introduction)
-    - [Requirements](#requirements)
-    
+12. [Installation Steps](#installation-steps)   
 21. [Step Wise Details](#step-wise-details)
 
     - [Launching Browsers](#00---launching-browsers)
@@ -150,20 +138,6 @@ git clone https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java.git
 		
 	</dependencies>
 ```
-
-## Overview
-
-### Introduction
-
-Writing your first automation test is a lot of fun.
-
-Java is one of the most popular programming languages. Java offers both object oriented and functional programming features. Selenium can be used for screen scraping and automating repeated tasks on browser.
-
-In this series, you will learn Automation Testing with Selenium. 
-
-### Requirements
-- You should have the ability to learn while having fun!
-- Connectivity to Internet to download various tools needed.
 
 ## Step Wise Details
 
