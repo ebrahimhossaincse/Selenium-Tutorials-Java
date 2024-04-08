@@ -196,6 +196,22 @@ In this series, you will learn Automation Testing with Selenium.
 - 09 - 05 [Reject Confirm Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/DismissConfirmAlert.java)
 - 09 - 06 [Reject Prompt Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/DismissPromptAlert.java)
 
+### 10 - Form WebElement Commands
+- 10 - 00 [Sendkeys](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/formwebelementcommands/SendKeysMethod.java)
+- 10 - 01 [Clear](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/formwebelementcommands/ClearMethod.java)
+- 10 - 02 [Click](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/formwebelementcommands/ClickMethod.java)
+- 10 - 03 [Submit](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/formwebelementcommands/SubmitMethod.java)
+
+### 11 - Mouse Events In Selenium
+- 11 - 00 [](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/mouseevents/Click.java)
+- 11 - 01 [](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/mouseevents/ClickAndHold.java)
+- 11 - 02 [](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/mouseevents/DoubleClick.java)
+- 11 - 03 [](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/mouseevents/DragAndDrop.java)
+- 11 - 04 [](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/mouseevents/DragAndDropByOffset.java)
+- 11 - 05 [](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/mouseevents/MoveByOffset.java)
+- 11 - 06 [](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/mouseevents/MoveToElement.java)
+- 11 - 07 [](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/mouseevents/RightClick.java)
+
 ### Acknowledgments
 Special thanks to the contributors and the Selenium community for their valuable resources and tutorials.
 
