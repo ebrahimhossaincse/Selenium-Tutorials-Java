@@ -1,9 +1,9 @@
-package tabhandling;
+package windowhandling;
 
-import java.util.Iterator;
 import java.util.Set;
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class SwitchToNewTab {
+public class CountTheWindows {
 
 	protected static String url = "https://demoqa.com/browser-windows";
 	WebDriver driver;
@@ -28,26 +28,13 @@ public class SwitchToNewTab {
 	public void openUrl() {
 		driver.get(url);
 	}
-
-	@SuppressWarnings("unused")
+	
 	@Test
-	public void switchToTab() throws InterruptedException {
-		Set<String> allWindowHandles = driver.getWindowHandles();
-		System.out.println("Count of Tab :" + allWindowHandles.size());
-
-		driver.findElement(By.id("tabButton")).click();
-
-		Set<String> newAllTabHandles = driver.getWindowHandles();
-		System.out.println("New Count of Tab :" + newAllTabHandles.size());
-
-		String ParentHandle = driver.getWindowHandle();
-
-		Iterator<String> iterator = newAllTabHandles.iterator();
-		String mainTab = iterator.next();
-		String childTab = iterator.next();
-
-		driver.switchTo().window(childTab);
+	public void countWindows() throws InterruptedException {
+		driver.switchTo().newWindow(WindowType.WINDOW);
 		Thread.sleep(5000);
+		Set<String> windows = driver.getWindowHandles();
+		System.out.println("Total Tab Number: "+windows.size());
 	}
 
 	@AfterSuite

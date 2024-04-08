@@ -1,9 +1,10 @@
-package tabhandling;
+package windowhandling;
 
 import java.util.Iterator;
 import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -12,7 +13,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class SwitchingOneTabToAnother {
+public class SwitchingOneWindowToAnother {
 
 	protected static String url = "https://demoqa.com/browser-windows";
 	WebDriver driver;
@@ -31,25 +32,33 @@ public class SwitchingOneTabToAnother {
 
 	@SuppressWarnings("unused")
 	@Test
-	public void switchingTab() throws InterruptedException {
+	public void switchingWindow() throws InterruptedException {
 		Set<String> allWindowHandles = driver.getWindowHandles();
-		System.out.println("Count of Tab :" + allWindowHandles.size());
+		System.out.println("Count of Window :" + allWindowHandles.size());
 
-		driver.findElement(By.id("tabButton")).click();
+		driver.findElement(By.id("windowButton")).click();
 
-		Set<String> newAllTabHandles = driver.getWindowHandles();
-		System.out.println("New Count of Tab :" + newAllTabHandles.size());
+		Set<String> newAllWindowHandles = driver.getWindowHandles();
+		System.out.println("New Count of Window :" + newAllWindowHandles.size());
 
 		String ParentHandle = driver.getWindowHandle();
 
-		Iterator<String> iterator = newAllTabHandles.iterator();
-		String mainTab= iterator.next();
-		String childTab = iterator.next();
+		Iterator<String> iterator = newAllWindowHandles.iterator();
+		String mainWindow = iterator.next();
+		String childWindow = iterator.next();
 
-		driver.switchTo().window(childTab);
+		driver.switchTo().window(childWindow);
 		Thread.sleep(3000);
-
-		driver.switchTo().window(mainTab);
+		
+		WebElement text = driver.findElement(By.id("sampleHeading"));
+        System.out.println("Child_Title :" + text.getText());
+ 
+        // Close Child window
+        driver.close();
+ 
+        // Switch back to parent window
+        driver.switchTo().window(ParentHandle);
+        System.out.println("Parent Title :" + driver.getTitle());
 		Thread.sleep(5000);
 	}
 
