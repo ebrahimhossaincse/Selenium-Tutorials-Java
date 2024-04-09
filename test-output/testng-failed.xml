@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="alerthandling.AcceptPromptAlert">
+      <class name="assertions.AssertNull">
         <methods>
-          <include name="acceptAlert"/>
+          <include name="openUrl"/>
+          <include name="testAssertNull"/>
           <include name="closeChromeBrowser"/>
           <include name="startChromeBrowser"/>
-          <include name="openUrl"/>
         </methods>
-      </class> <!-- alerthandling.AcceptPromptAlert -->
+      </class> <!-- assertions.AssertNull -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
