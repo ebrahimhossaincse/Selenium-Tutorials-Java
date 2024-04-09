@@ -35,6 +35,7 @@
     - [Browser Tab](#13---browser-tab)
     - [Browser Window](#14---browser-window)
     - [Frame In Selenium](#15---frame-in-selenium)
+    - [Assertion](#16---assertion)
     
 38. [Acknowledgments](#acknowledgments)
 39. [Contact](#contact)
@@ -260,6 +261,15 @@ git clone https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java.git
 - 15 - 03 [Switch To Frames By Name](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/iframehandling/SwitchToFramesByName.java)
 - 15 - 04 [Switch To Frames By WebElement](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/iframehandling/SwitchToFramesByWebElement.java)
 - 15 - 05 [Switch Back To Default](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/iframehandling/SwitchBackToMainPage.java)
+
+### 16 - Assertion
+- 16 - 00 [Assert Equals](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/assertions/AssertEquals.java)
+- 16 - 01 [Assert False](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/assertions/AssertFalse.java)
+- 16 - 02 [Assert Not Equals](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/assertions/AssertNotEquals.java)
+- 16 - 03 [Assert Not Null](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/assertions/AssertNotNull.java)
+- 16 - 04 [Assert True](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/assertions/AssertTrue.java)
+- 16 - 05 [Soft Assertion](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/assertions/SoftAssertion.java)
+
 
 ### Acknowledgments
 Special thanks to the contributors and the Selenium community for their valuable resources and tutorials.
