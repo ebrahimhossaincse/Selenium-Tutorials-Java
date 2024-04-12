@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assertions.AssertNull">
+      <class name="webtablehandling.GetMaximumPriceInColumn">
         <methods>
+          <include name="getMaximumPriceInColumn"/>
           <include name="openUrl"/>
-          <include name="testAssertNull"/>
           <include name="closeChromeBrowser"/>
           <include name="startChromeBrowser"/>
         </methods>
-      </class> <!-- assertions.AssertNull -->
+      </class> <!-- webtablehandling.GetMaximumPriceInColumn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

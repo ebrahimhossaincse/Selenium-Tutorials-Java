@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-09T09:00:20 EDT" name="Default suite" finished-at="2024-04-09T09:00:22 EDT" duration-ms="2309">
+  <suite started-at="2024-04-11T22:57:20 EDT" name="Default suite" finished-at="2024-04-11T22:57:25 EDT" duration-ms="4633">
     <groups>
     </groups>
-    <test started-at="2024-04-09T09:00:20 EDT" name="Default test" finished-at="2024-04-09T09:00:22 EDT" duration-ms="2309">
-      <class name="assertions.SoftAssertion">
-        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:assertions.SoftAssertion@5524cca1]" started-at="2024-04-09T09:00:18 EDT" name="startChromeBrowser" finished-at="2024-04-09T09:00:20 EDT" duration-ms="2042" status="PASS">
+    <test started-at="2024-04-11T22:57:20 EDT" name="Default test" finished-at="2024-04-11T22:57:25 EDT" duration-ms="4633">
+      <class name="webtablehandling.GetMaximumPriceInColumn">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:webtablehandling.GetMaximumPriceInColumn@5032714f]" started-at="2024-04-11T22:57:18 EDT" name="startChromeBrowser" finished-at="2024-04-11T22:57:20 EDT" duration-ms="1988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChromeBrowser -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:assertions.SoftAssertion@5524cca1]" started-at="2024-04-09T09:00:20 EDT" name="openUrl" finished-at="2024-04-09T09:00:22 EDT" duration-ms="2238" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:webtablehandling.GetMaximumPriceInColumn@5032714f]" started-at="2024-04-11T22:57:20 EDT" name="openUrl" finished-at="2024-04-11T22:57:24 EDT" duration-ms="4010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="testSoftAssertion()[pri:0, instance:assertions.SoftAssertion@5524cca1]" started-at="2024-04-09T09:00:22 EDT" name="testSoftAssertion" finished-at="2024-04-09T09:00:22 EDT" duration-ms="21" status="PASS">
+        <test-method signature="getMaximumPriceInColumn()[pri:0, instance:webtablehandling.GetMaximumPriceInColumn@5032714f]" started-at="2024-04-11T22:57:24 EDT" name="getMaximumPriceInColumn" finished-at="2024-04-11T22:57:25 EDT" duration-ms="591" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSoftAssertion -->
-        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:assertions.SoftAssertion@5524cca1]" started-at="2024-04-09T09:00:22 EDT" name="closeChromeBrowser" finished-at="2024-04-09T09:00:22 EDT" duration-ms="180" status="PASS">
+        </test-method> <!-- getMaximumPriceInColumn -->
+        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:webtablehandling.GetMaximumPriceInColumn@5032714f]" started-at="2024-04-11T22:57:25 EDT" name="closeChromeBrowser" finished-at="2024-04-11T22:57:25 EDT" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChromeBrowser -->
-      </class> <!-- assertions.SoftAssertion -->
+      </class> <!-- webtablehandling.GetMaximumPriceInColumn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
