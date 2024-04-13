@@ -36,7 +36,7 @@
     - [Browser Window](#14---browser-window)
     - [Frame In Selenium](#15---frame-in-selenium)
     - [Assertion](#16---assertion)
-    - [Web Table](#16---web-table)
+    - [Web Table](#17---web-table)
     
 38. [Acknowledgments](#acknowledgments)
 39. [Contact](#contact)
