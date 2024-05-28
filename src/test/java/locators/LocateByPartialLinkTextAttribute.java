@@ -30,7 +30,7 @@ public class LocateByPartialLinkTextAttribute {
 
 	@Test
 	public void locateByPartialLinkText() throws InterruptedException {
-		WebElement linkTextLocator = driver.findElement(By.linkText("Forgot"));
+		WebElement linkTextLocator = driver.findElement(By.partialLinkText("Forgot"));
 		linkTextLocator.click();
 		Thread.sleep(5000);
 	}
