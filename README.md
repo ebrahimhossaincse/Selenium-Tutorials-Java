@@ -295,4 +295,4 @@ For questions or feedback, please feel free to reach out:
 3. Facebook: [Md. Ebrahim Hossain](https://www.facebook.com/profile.php?id=61554238176700)
 3. Linkedin: [Md. Ebrahim Hossain](https://www.linkedin.com/in/mdebrahimhossain/)
 3. Stack Overflow: [Md. Ebrahim Hossain](https://stackoverflow.com/users/23442414/md-ebrahim-hossain?tab=profile)
-3. medium: [Md. Ebrahim Hossain](https://medium.com/@mdebrahimhossain.me)
+3. Medium: [Md. Ebrahim Hossain](https://medium.com/@mdebrahimhossain.me)
