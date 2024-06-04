@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ScrollDown {
-	protected static String url = "https://www.amazon.com/";
+	protected static String url = "https://www.daraz.com.bd/";
 	WebDriver driver;
 
 	@BeforeSuite
@@ -20,8 +20,9 @@ public class ScrollDown {
 	}
 
 	@BeforeClass
-	public void openUrl() {
+	public void openUrl() throws InterruptedException {
 		driver.get(url);
+		Thread.sleep(10000);
 	}
 
 	@Test(priority = 0)
