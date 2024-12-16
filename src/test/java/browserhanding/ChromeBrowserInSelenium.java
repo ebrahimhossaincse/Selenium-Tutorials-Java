@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ChromeBrowserInSelenium {
-	protected static String url = "https://www.testingtherapy.com/";
+	protected static String url = "https://www.google.com/";
 	WebDriver driver;
 
 	@BeforeSuite
